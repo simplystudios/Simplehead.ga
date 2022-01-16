@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #fff;
 
 }
 html{
@@ -31,4 +32,12 @@ background-color: #000000;
     text-align: center;
     color: transparent;
     -webkit-text-stroke: 1px rgb(16, 154, 235);
+}
+p{
+    font-size: 35px;
+    line-height: 160px;
+    margin-left:  -10px;
+    color: white;
+    -webkit-text-stroke: 0.5px #fff;
+    
 }
