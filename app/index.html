@@ -2,10 +2,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script defer src="theme.js"></script>
     <link rel="stylesheet" href="styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap"
-      rel="stylesheet"
-    />
+    <script type="module" src="https://static.freshdev.io/freshworks-ui-kit/freshworks-ui-kit.esm.js"></script>
+    <script nomodule src="https://static.freshdev.io/freshworks-ui-kit/freshworks-ui-kit.js"></script>
+    <script src='node_modules/@freshworks/crayons/dist/crayons.js'></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500">
+    <style>
+      body {
+        font-family: 'Poppins', serif;
+        font-size: 14px;
+      }
+    </style>
   </head>
   
   <body>
@@ -220,6 +228,11 @@
     </nav>
   
     <main>
-      
+      <fw-button color=""> OK </fw-button>
+      <fw-button size=""><fw-icon name="download" color="white"></fw-icon> </fw-button>
+      <section>
+        <fw-button color="danger">Virus</fw-button>
+      </section>
     </main>
   </body>
+  
