@@ -1,0 +1,26 @@
+.center{
+  float: right;
+  height: 300px;
+  border: 1px solid;
+}
+.img2{
+  float: left;
+  height: 200px;
+  border: 1px solid;
+}
+.img{
+  float: right;
+  height: 200px;
+  border: 1px solid;
+}
+
+  ul{
+  height: 100px;
+  width: 200px;
+  border-radius: 3px;
+  display: block;
+  border: 2px solid;
+}
+html {
+  scroll-behavior: smooth;
+}
