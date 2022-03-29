@@ -1,23 +1,18 @@
-const themeMap = {
-    dark: "light",
-    light: "solar",
-    solar: "dark"
-  };
-  
-  const theme = localStorage.getItem('theme')
-    || (tmp = Object.keys(themeMap)[0],
-        localStorage.setItem('theme', tmp),
-        tmp);
-  const bodyClass = document.body.classList;
-  bodyClass.add(theme);
-  
-  function toggleTheme() {
-    const current = localStorage.getItem('theme');
-    const next = themeMap[current];
-  
-    bodyClass.replace(current, next);
-    localStorage.setItem('theme', next);
-  }
-  
-  document.getElementById('themeButton').onclick = toggleTheme;
-  
+const title_elem = document.querySelector(".article-title"),
+description_elem = document.querySelector(".article-desc");
+
+var search = window.location.search.substr(1);
+
+if(search){
+    var api="https://en.wikipedia.org/w/api.php?format=json&action=query&origin=*&prop=extracts&exintro&explaintext&redirects=1&titles="
+}
+fetch(api)
+.then(Response => response.json{})
+.then(response => {})
+response = response.query.pages;
+var pageid = Object.keys(response)[0];
+var extract = response[pageid].extract;
+
+title_elem.innerHTML = search;
+description_elem.innerHTML = extract
+
