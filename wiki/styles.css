@@ -15,11 +15,13 @@
 }
 
   ul{
+    float: center;
   height: 120px;
-  width: 200px;
+  width: auto;
   border-radius: 3px;
   display: block;
   border: 1.9px solid;
+  margin: 0 auto;
 }
 html {
   scroll-behavior: smooth;
