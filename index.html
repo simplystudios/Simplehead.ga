@@ -13,9 +13,9 @@
 <link rel="manifest" href="favicon_io/site.webmanifest">
 
     <meta name="name" content="Simplehead &bull; Home">
-    <meta name="description" content="One place to Find Documentations Of Languages.">
-    <meta name="keywords" content="Simplehead, Documentation, code, code Documentation, languages documentation, documentation, coding docu, docu">
-    <meta name="theme-color" content="#14181F">
+    <meta name="description" content="Search Anything And Know The History Of It.">
+    <meta name="keywords" content="Simplehead, simplewiki, code, code Documentation,google clone, search, coding, wikipedia clone">
+    <meta name="theme-color" content="#101010">
 
     <meta property="og:title" content="Simplehead &bull; Home">
     <meta property="og:url" content="https://simplehead.ga">
@@ -39,12 +39,12 @@
 </head>
 <body>
 
-
+<div class="contents">
 
     
     <nav class="navbar navbar-expand-sm navbar-dark bg- style="background-color: #1F1B24;>
         <div class="container-fluid">
-          <img src="https://avatars.githubusercontent.com/u/97424899?s=400&u=1b2275aa95311eccb316703d1e88b481d0360562&v=4" width="40" height="40" class="d-inline-block align-top" alt="">
+          <img src="/images/logo.png" width="40" alt="simplehead logo">
 
           <a class="navbar-brand" href="#">Simplehead</a> 
           
@@ -52,21 +52,6 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="nav">
-            <ul class="navbar-nav me-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/timeline/">Timeline <span class="badge bg-secondary">New</span></h5></a>
-
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/projects/">Projects</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <a  href="https://github.com/simplystudios"type="button" class='btn btn-outline-secondary'>Github</a>
-               
                 <style>
                   body{
                     background-color: rgb(0, 0, 0);
@@ -79,54 +64,33 @@
       </nav>
       <div class="wrapper centered">
         <div class="inner">
-            <div class="logo">
-                <img src="https://avatars.githubusercontent.com/u/97424899?s=400&u=1b2275aa95311eccb316703d1e88b481d0360562&v=4" alt="simplehead logo" class="center">
+            <div class="logo centered">
+                <img class="logo-image"src="/images/logo.png" alt="simplehead logo">
             </div>
-            <div class="logo-text">
-                <h2>Simplehead</h2>
+            <div class="text centered">
+                <h2 class="logo-text">Simplehead</h2>
             </div>
-            <div class="search-bar">
-                <input type="search" class="search-input" placeholder="search anything">
+            <div class="search-bar centered">
+                <input type="text" class="search-input" placeholder="Search Anything!">
             </div>
         </div>
       </div>
     
-   <h1 style="color: white;"></h1>
+   <p style="color: rgb(88, 88, 88);"class="centered">powered by 󠀠  <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/Wikipedia-logo-transparent.png" alt="" width="20"> 󠀠 wikipedia</p>
     
-    </body>
-    </html>
     
 
-    
 
-        
-<footer class="text-center text-white " style="background-color: #000000;">
-  <!-- Grid container -->
-  <div class="container p-4" style="background-color: rgb(0, 0, 0)"></div></div>
-  <!-- Grid container -->
-  <div style="background-color: rgb(0, 0, 0)" >
-      <p>Protected by:</p>
-
-        <img src="/images/cflogo.png" alt="cloudflare logo" width="70">
-  </div>
-  <!-- Copyright -->
-  
-  <div class="text-center p-3" style="background-color: rgb(0, 0, 0)">
-    © 2021-2022 Copyright:
-    <a class="text-white" href="https://simplehead.ga/copyright">Simplehead.ga</a>
-  </div>
-  <!-- Copyright -->
-</footer>
-</div>
 <!-- End of .container -->
-        <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
-          <script src="js/bootstrap.js"></script>
+  
+          <script src="/homejs/app.js"></script>
+          <script src="/homejs/index.js"></script>
 
 <script> 
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/service-worker.js');
   }
 </script>
-
+</div>
 </body>
 </html>
